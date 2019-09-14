@@ -3,7 +3,7 @@ import dash_html_components as html
 
 app = dash.Dash()
 
-app.layout = html.Div(id="first",children=
+app.layout = html.Div(id="first",n_clicks=0,children=
     [html.H1(id="second",children=["hello world"])]
     )
 
